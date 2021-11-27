@@ -13,7 +13,7 @@ module.exports = {
 
     extend: {
       fontFamily: {
-        sans: ["Outfit", "sans-serif"],
+        Outfit: ["Outfit", "sans-serif"],
       },
     },
   },
