@@ -7,7 +7,7 @@ import clock from "./img/clock.svg";
 function App() {
   return (
     <div className="bg-main text-lg text-soft font-Outfit min-h-screen flex justify-center items-center">
-      <div className="bg-card font-Output cursor-pointer mx-6 p-5 rounded-lg w-screen md:w-60 lg:w-[360px] h-1/2 lg:my-20">
+      <div className="bg-card font-Output cursor-pointer mx-6 p-5 rounded-lg w-screen md:w-7/12 lg:w-3/12 h-1/2 lg:my-20">
         <div className="h-1/2">
           <img
             className="rounded-lg hover:bg-cyan"
@@ -35,7 +35,7 @@ function App() {
         </div>
         <hr className="text-line" />
         <div className="mt-4 flex flex-row items-center text-sm space-x-4">
-          <img className="w-1/4" src={avatar} alt="person" />
+          <img className="w-10 h-10" src={avatar} alt="person" />
           <p className="text-soft">
             Creation of
             <span className="text-white hover:text-cyan"> Julius Wyvern</span>
